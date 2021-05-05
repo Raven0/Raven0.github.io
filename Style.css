@@ -1,0 +1,16 @@
+*{
+    background-color: #000;
+    color: #fff;
+}
+
+.images__profile{
+    width: 350px;
+}
+
+.Desc__About p{
+    width: 400px;
+}
+
+.images__android{
+    width: 500px;
+}
