@@ -10,16 +10,15 @@
 </head>
 <body>
 <!-- Profile Container -->
-    <div class="h-3/4 w-full justify-center flex ">
+    <div class=" w-full justify-center flex ">
         <div class="w-1/2 flex items-center flex-col lg:flex-row  ">
             <!-- Images -->
             <div class="images__container rounded-full p-5">
                 <img class="rounded-full images__profile" src="./assets/img/pic.png" alt="">
             </div>
             <!-- end image -->
-
             <!-- Text Profile -->
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center  ">
                 <!-- HeadLine Text -->
                 <div class="font-bold text-xl mt-2 ">
                     Hey There! I’m Ismail 👋
@@ -35,21 +34,20 @@
 <!-- End Profile Container -->
 
 <!-- About Container  -->
-    <div class="w-full  flex mt-2  ">
+    <div class="w-full flex mt-20 flex-col items-center  ">
         <!--Text About -->
         <div class="w-1/2 flex flex-col items-center  ">
             <!-- Headline About -->
-            <div class="font-bold text-4xl  ">
+            <div class="font-bold text-4xl   ">
                 About Me.
             </div>
             <!-- Desc About  -->
-            <div class="font-normal Desc__About text-lg">
+            <div class="font-normal Desc__About text-lg flex flex-col">
                 <p class="mt-5 ">
 
                     Hello my name is Ismail Azh-Zhafir Rohaga, I love learning new things especially technologies.  I am currently working at <a href="https://www.forest-interactive.com/"><u>Forest Interactive</u></a> as Android Developer while also a Student in <a href="https://binus.ac.id/"><u>Binus University</u></a> majoring Computer Science.
 
                 </p>
-
                 <p class="mt-5">
 
                     My main skill as a developer is in <a href="https://developer.android.com/"><u>Android Development</u></a> using Kotlin, other than that i also have experience in developing a web app as a Full Stack Web Developer with  <a href="https://laravel.com/"><u>Laravel.</u></a>
@@ -58,20 +56,553 @@
                 <p class="mt-5">
                     Here are a couple of technologies I've been working with recently:
                 </p>
+
+                    <div class="mt-5 lg:flex ">
+                        <div>
+                            <p>· Flutter</p>
+                            <p>· React Native</p>
+                            <p>· Swift</p>
+                        </div>
+
+                        <div>
+                            <p>· Javascript (ES6+)</p>
+                            <p>· Express.js</p>
+                            <p>· Mongodb</p>
+                        </div>
+                    </div>
             </div>
-            <!-- End Desc About -->
+
 
         </div>
         <!-- Images__android -->
         <div class="w-1/2 flex justify-center items-center">
-            <img class="images__android"  src="./assets/img/android.png" alt="">
+            <img class="images__android"  src="./assets/img/aboutImages.png" alt="">
         </div>
-        <!-- End Images Android -->
 
     </div>
 <!-- About end Container   -->
 
+<!-- Container My Works -->
+    <div class="w-full flex flex-col  mt-10">
+        <!-- Headeline Works -->
+        <div class="font-bold flex text-4xl justify-center">
+            My Works.
+        </div>
+    <!-- WALLET CODES  -->
 
+    <div class="Wallet__Codes my-5">
+        <!-- headline item Module  -->
+        <div class="flex flex-row mt-5 ml-5 ">
+            <!-- Module IMG -->
+            <div class="flex w-28">
+                <img  src="./assets/img/logo.png" alt="">
+            </div>
+            <!-- Container Desc -->
+            <div class="flex flex-col self-center ml-5 flex-wrap ">
+                <p class="text-xs">FEB 2021</p>
+                <a href="" class="font-bold flex  text-lg"><u>Wallet Codes: Games Top Up and Vouchers</u></a>
+                <p class="text-xs">Android - Kotlin</p>
+            </div>
+        </div>
+        <!-- Item Module Container -->
+        <!-- NOTE L RESPONSIVE NOT SET UP -->
+            <div class="flex flex-row mt-5 ">
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup1()" src="./assets/img/image 1.png" alt="">
+                    <!-- Pop up 1 -->
+                    <div class="popup" id="popup-1">
+                        <div onclick="togglePopup1()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup1()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/10-wc-1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup2()" src="./assets/img/image 2.png" alt="">
+                    <!-- Pop up 2 -->
+                    <div class="popup" id="popup-2">
+                        <div onclick="togglePopup2()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup2()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/10-wc-2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup3()"  src="./assets/img/image 3.png" alt="">
+                </div>
+                 <!-- Pop up 3 -->
+                 <div class="popup" id="popup-3">
+                    <div onclick="togglePopup3()" class="overlay"></div>
+                    <div class="content w-1/2">
+                        <div onclick="togglePopup3()" class="close-btn">x</div>
+                        <img class="w-full h-full"  src="./assets/img/port/10-wc-3.webp" alt="">
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+    <!-- END WAllET CODES -->
+
+    <!-- SMART RENJA -->
+    <div class="Smart__Renja my-5">
+        <!-- headline item Module  -->
+        <div class="flex flex-row mt-5 ml-5 ">
+            <!-- Module IMG -->
+            <div class="flex w-28">
+                <img  src="./assets/img/logoRenja.png" alt="">
+            </div>
+            <!-- Container Desc -->
+            <div class="flex flex-col self-center ml-5 flex-wrap ">
+                <p class="text-xs">JAN 2021</p>
+                <a href="" class="font-bold flex  text-lg"><u>Smart Renja DPRD Kabupaten Bandung Barat</u></a>
+                <p class="text-xs">Android - Kotlin</p>
+            </div>
+        </div>
+        <!-- Item Module Container -->
+        <!-- NOTE L RESPONSIVE NOT SET UP -->
+            <div class="flex flex-row mt-5 ">
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup4()" src="./assets/img/image 1Renja.png" alt="">
+                      <!-- Pop up 4 -->
+                      <div class="popup" id="popup-4">
+                        <div onclick="togglePopup4()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup4()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/9-sr-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup5()" src="./assets/img/image 2Renja.png" alt="">
+                     <!-- Pop up 5 -->
+                     <div class="popup" id="popup-5">
+                        <div onclick="togglePopup5()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup5()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/9-sr-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup6()" src="./assets/img/image 3Renja.png" alt="">
+                </div>
+                 <!-- Pop up 6 -->
+                 <div class="popup"  id="popup-6">
+                    <div onclick="togglePopup6()" class="overlay"></div>
+                    <div class="content w-1/2">
+                        <div onclick="togglePopup6()" class="close-btn">x</div>
+                        <img class="w-full h-full"  src="./assets/img/port/9-sr-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- END SMART RENJA -->
+
+    <!-- SIBU PERKINDO -->
+
+    <div class="Sibu__Perkindo my-5">
+          <!-- headline item Module  -->
+          <div class="flex flex-row mt-5 ml-5 ">
+            <!-- Module IMG -->
+            <div class="flex w-28">
+                <img  src="./assets/img/logoSibu.png" alt="">
+            </div>
+            <!-- Container Desc -->
+            <div class="flex flex-col self-center ml-5 flex-wrap ">
+                <p class="text-xs">NOV 2020</p>
+                <a href="" class="font-bold flex  text-lg"><u>SIBU Perkindo Jabar</u></a>
+                <p class="text-xs">Android - Kotlin</p>
+            </div>
+        </div>
+        <!-- Item Module Container -->
+        <!-- NOTE L RESPONSIVE NOT SET UP -->
+            <div class="flex flex-row mt-5 ">
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup7()" src="./assets/img/image 1Sibu.png" alt="">
+                    <!-- Pop up 7 -->
+                    <div class="popup"  id="popup-7">
+                        <div onclick="togglePopup7()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup7()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/8-pk-1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup8()"  src="./assets/img/image 2Sibu.png" alt="">
+                     <!-- Pop up 8 -->
+                     <div class="popup"  id="popup-8">
+                        <div onclick="togglePopup8()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup8()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/8-pk2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup9()" src="./assets/img/image 3Sibu.png" alt="">
+                     <!-- Pop up 9 -->
+                     <div class="popup"  id="popup-9">
+                        <div onclick="togglePopup9()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup9()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/8-pk-3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- END SIBU PERKINDO -->
+
+    <!-- SEROJA -->
+    <div class="Seroja my-5">
+        <!-- headline item Module  -->
+        <div class="flex flex-row mt-5 ml-5 ">
+          <!-- Module IMG -->
+          <div class="flex w-28">
+              <img  src="./assets/img/logoSeroja.png" alt="">
+          </div>
+          <!-- Container Desc -->
+          <div class="flex flex-col self-center ml-5 flex-wrap ">
+              <p class="text-xs">FEB 2020</p>
+              <a href="" class="font-bold flex  text-lg"><u>SEROJA</u></a>
+              <p class="text-xs">Android - Kotlin</p>
+          </div>
+      </div>
+      <!-- Item Module Container -->
+      <!-- NOTE L RESPONSIVE NOT SET UP -->
+          <div class="flex flex-row mt-5 ">
+              <div class="flex w-52 mx-3 ">
+                  <img class="w-full h-full" onclick="togglePopup10()" src="./assets/img/image 1Seroja.png" alt="">
+                  <!-- Pop up 7 -->
+                  <div class="popup"  id="popup-10">
+                      <div onclick="togglePopup10()" class="overlay"></div>
+                      <div class="content w-1/2">
+                          <div onclick="togglePopup10()" class="close-btn">x</div>
+                          <img class="w-full h-full"  src="./assets/img/port/7-sj-1.webp" alt="">
+                      </div>
+                  </div>
+              </div>
+              <div class="flex w-52 mx-3 ">
+                  <img class="w-full h-full" onclick="togglePopup11()"  src="./assets/img/image 2Seroja.png" alt="">
+                   <!-- Pop up 8 -->
+                   <div class="popup"  id="popup-11">
+                      <div onclick="togglePopup11()" class="overlay"></div>
+                      <div class="content w-1/2">
+                          <div onclick="togglePopup11()" class="close-btn">x</div>
+                          <img class="w-full h-full"  src="./assets/img/port/7-sj-2.webp" alt="">
+                      </div>
+                  </div>
+              </div>
+              <div class="flex w-52 mx-3 ">
+                  <img class="w-full h-full" onclick="togglePopup12()" src="./assets/img/image 3Sibu.png" alt="">
+                   <!-- Pop up 9 -->
+                   <div class="popup"  id="popup-12">
+                      <div onclick="togglePopup12()" class="overlay"></div>
+                      <div class="content w-1/2">
+                          <div onclick="togglePopup12()" class="close-btn">x</div>
+                          <img class="w-full h-full"  src="./assets/img/port/7-sj-3.webp" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </div>
+
+    <!-- END SEROJA -->
+
+    <!-- Anggota Perkindo -->
+    <div class="Perkindo my-5">
+        <!-- headline item Module  -->
+        <div class="flex flex-row mt-5 ml-5 ">
+          <!-- Module IMG -->
+          <div class="flex w-28">
+              <img  src="./assets/img/logoPerkindo.png" alt="">
+          </div>
+          <!-- Container Desc -->
+          <div class="flex flex-col self-center ml-5 flex-wrap ">
+              <p class="text-xs">DEC 2019</p>
+              <a href="" class="font-bold flex  text-lg"><u>Anggota Perkindo Jabar</u></a>
+              <p class="text-xs">Website - Laravel</p>
+          </div>
+      </div>
+      <!-- Item Module Container -->
+      <!-- NOTE L RESPONSIVE NOT SET UP -->
+          <div class="flex flex-row mt-5 ">
+              <div class="flex w-52 mx-3 ">
+                  <img class="w-full h-full" onclick="togglePopup13()" src="./assets/img/image 1Perkindo.png" alt="">
+                  <!-- Pop up 7 -->
+                  <div class="popup"  id="popup-13">
+                      <div onclick="togglePopup13()" class="overlay"></div>
+                      <div class="content__web w-1/2">
+                          <div onclick="togglePopup13()" class="close-btn">x</div>
+                          <img class="w-full h-full"  src="./assets/img/port/6-pk-1.png" alt="">
+                      </div>
+                  </div>
+              </div>
+              <div class="flex w-52 mx-3 ">
+                  <img class="w-full h-full" onclick="togglePopup14()"  src="./assets/img/image 2Perkindo.png" alt="">
+                   <!-- Pop up 8 -->
+                   <div class="popup"  id="popup-14">
+                      <div onclick="togglePopup14()" class="overlay"></div>
+                      <div class="content__web w-1/2">
+                          <div onclick="togglePopup14()" class="close-btn">x</div>
+                          <img class="w-full h-full"  src="./assets/img/port/6-pk-2.png" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </div>
+    <!-- END ANGGOTA PERKINDO -->
+
+    <!-- Yellow Truck  -->
+    <div class="Yellow_truck my-5">
+        <!-- headline item Module  -->
+        <div class="flex flex-row mt-5 ml-5 ">
+            <!-- Module IMG -->
+            <div class="flex w-28">
+                <img  src="./assets/img/logoTruck.png" alt="">
+            </div>
+            <!-- Container Desc -->
+            <div class="flex flex-col self-center ml-5 flex-wrap ">
+                <p class="text-xs">DEC 2018</p>
+                <a href="" class="font-bold flex  text-lg"><u>Yellow Truck Coffee</u></a>
+                <p class="text-xs">Android - Java</p>
+            </div>
+        </div>
+        <!-- Item Module Container -->
+        <!-- NOTE L RESPONSIVE NOT SET UP -->
+            <div class="flex flex-row mt-5 ">
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup16()" src="./assets/img/image 1Truck.png" alt="">
+                      <!-- Pop up 4 -->
+                      <div class="popup" id="popup-16">
+                        <div onclick="togglePopup16()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup16()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/5-yt-1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup17()" src="./assets/img/image 2Truck.png" alt="">
+                     <!-- Pop up 5 -->
+                     <div class="popup" id="popup-17">
+                        <div onclick="togglePopup17()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup17()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/5-yt-2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup18()" src="./assets/img/image 3Truck.png" alt="">
+                </div>
+                 <!-- Pop up 6 -->
+                 <div class="popup"  id="popup-18">
+                    <div onclick="togglePopup18()" class="overlay"></div>
+                    <div class="content w-1/2">
+                        <div onclick="togglePopup18()" class="close-btn">x</div>
+                        <img class="w-full h-full"  src="./assets/img/port/5-yt-3.webp" alt="">
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- ENd Yellow Truck -->
+
+    <!-- AIWA APPS -->
+    <div class="Aiwa_Apps my-5">
+        <!-- headline item Module  -->
+        <div class="flex flex-row mt-5 ml-5 ">
+            <!-- Module IMG -->
+            <div class="flex w-28">
+                <img  src="./assets/img/logoAiwa.png" alt="">
+            </div>
+            <!-- Container Desc -->
+            <div class="flex flex-col self-center ml-5 flex-wrap ">
+                <p class="text-xs">SEP 2018</p>
+                <a href="" class="font-bold flex  text-lg"><u>AIWA Apps</u></a>
+                <p class="text-xs">Android - Java</p>
+            </div>
+        </div>
+        <!-- Item Module Container -->
+        <!-- NOTE L RESPONSIVE NOT SET UP -->
+            <div class="flex flex-row mt-5 ">
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup19()" src="./assets/img/image 1Aiwa.png" alt="">
+                      <!-- Pop up 4 -->
+                      <div class="popup" id="popup-19">
+                        <div onclick="togglePopup19()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup19()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/4-aiwa-1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup20()" src="./assets/img/image 2Aiwa.png" alt="">
+                     <!-- Pop up 5 -->
+                     <div class="popup" id="popup-20">
+                        <div onclick="togglePopup20()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup20()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/4-aiwa-2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup21()" src="./assets/img/image 3Aiwa.png" alt="">
+                </div>
+                 <!-- Pop up 6 -->
+                 <div class="popup"  id="popup-21">
+                    <div onclick="togglePopup21()" class="overlay"></div>
+                    <div class="content w-1/2">
+                        <div onclick="togglePopup21()" class="close-btn">x</div>
+                        <img class="w-full h-full"  src="./assets/img/port/4-aiwa-3.webp" alt="">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!-- END AIWA -->
+
+    <!-- PKB -->
+    <div class="Pkb my-5">
+        <!-- headline item Module  -->
+        <div class="flex flex-row mt-5 ml-5 ">
+            <!-- Module IMG -->
+            <div class="flex w-28">
+                <img  src="./assets/img/logoPkb.png" alt="">
+            </div>
+            <!-- Container Desc -->
+            <div class="flex flex-col self-center ml-5 flex-wrap ">
+                <p class="text-xs">APR 2018</p>
+                <a href="" class="font-bold flex  text-lg"><u>PKB Perum Perhutani</u></a>
+                <p class="text-xs">Android - Java</p>
+            </div>
+        </div>
+        <!-- Item Module Container -->
+        <!-- NOTE L RESPONSIVE NOT SET UP -->
+            <div class="flex flex-row mt-5 ">
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup22()" src="./assets/img/image 1pkb.png" alt="">
+                      <!-- Pop up 4 -->
+                      <div class="popup" id="popup-22">
+                        <div onclick="togglePopup22()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup22()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/3-perhutani-1.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup23()" src="./assets/img/image 2pkb.png" alt="">
+                     <!-- Pop up 5 -->
+                     <div class="popup" id="popup-23">
+                        <div onclick="togglePopup23()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup23()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/3-perhutani-2.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- PKB App -->
+
+    <!-- Finance -->
+    <div class="Finance my-5">
+        <!-- headline item Module  -->
+        <div class="flex flex-row mt-5 ml-5 ">
+            <!-- Module IMG -->
+            <div class="flex w-28">
+                <img  src="./assets/img/logoFinance.png" alt="">
+            </div>
+            <!-- Container Desc -->
+            <div class="flex flex-col self-center ml-5 flex-wrap ">
+                <p class="text-xs">MAR 2018</p>
+                <a href="" class="font-bold flex  text-lg"><u>Finance System SMKN13</u></a>
+                <p class="text-xs">Website - Laravel</p>
+            </div>
+        </div>
+        <!-- Item Module Container -->
+        <!-- NOTE L RESPONSIVE NOT SET UP -->
+            <div class="flex flex-row mt-5 ">
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup24()" src="./assets/img/image 1Finance.png" alt="">
+                      <!-- Pop up 4 -->
+                      <div class="popup" id="popup-24">
+                        <div onclick="togglePopup24()" class="overlay"></div>
+                        <div class="content__web w-1/2">
+                            <div onclick="togglePopup24()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/2-finance-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup25()" src="./assets/img/image 2Finance.png" alt="">
+                     <!-- Pop up 5 -->
+                     <div class="popup" id="popup-25">
+                        <div onclick="togglePopup25()" class="overlay"></div>
+                        <div class="content__web w-1/2">
+                            <div onclick="togglePopup25()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/2-finance-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Finance END APP -->
+
+    <!-- Student Affair -->
+    <div class="Student__affair my-5">
+        <!-- headline item Module  -->
+        <div class="flex flex-row mt-5 ml-5 ">
+            <!-- Module IMG -->
+            <div class="flex w-28">
+                <img  src="./assets/img/logoStudent.png" alt="">
+            </div>
+            <!-- Container Desc -->
+            <div class="flex flex-col self-center ml-5 flex-wrap ">
+                <p class="text-xs">SEP 2017</p>
+                <a href="" class="font-bold flex  text-lg"><u>Student Affairs FKG UNPAD</u></a>
+                <p class="text-xs">Android - Java</p>
+            </div>
+        </div>
+        <!-- Item Module Container -->
+        <!-- NOTE L RESPONSIVE NOT SET UP -->
+            <div class="flex flex-row mt-5 ">
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup26()" src="./assets/img/image 1Student.png" alt="">
+                      <!-- Pop up 4 -->
+                      <div class="popup" id="popup-26">
+                        <div onclick="togglePopup26()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup26()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/1-unpad-1.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-52 mx-3 ">
+                    <img class="w-full h-full" onclick="togglePopup27()" src="./assets/img/image 2Student.png" alt="">
+                     <!-- Pop up 5 -->
+                     <div class="popup" id="popup-27">
+                        <div onclick="togglePopup27()" class="overlay"></div>
+                        <div class="content w-1/2">
+                            <div onclick="togglePopup27()" class="close-btn">x</div>
+                            <img class="w-full h-full"  src="./assets/img/port/1-unpad-2.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Student End Affair -->
+
+    </div>
+<!-- End My Works -->
 
 
 
