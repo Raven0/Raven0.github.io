@@ -1,4 +1,3 @@
-//TODO: TO MAKE ARRAY LIST OF ITEM THAT WILL BE FETCHED TO VIEW
 // WALLET CODE
     const popup1 = document.getElementById("popup-1");
     const popup2 = document.getElementById("popup-2");
