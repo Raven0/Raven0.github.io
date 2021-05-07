@@ -3,14 +3,16 @@
     color: #fff;
 }
 
+u{
+  color: #FFD54E;
+}
+
 body{
   overflow-x: hidden;
 }
 
-
-
-.Desc__About p{
-    width: 400px;
+.immerse {
+  min-height: 100%;
 }
 
 .popup .overlay {
