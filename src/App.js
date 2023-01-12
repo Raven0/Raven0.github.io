@@ -37,7 +37,11 @@ function App() {
                   alt="email"
                 />
               </a>
-              <a href="https://wa.me/+6285155020773">
+              <a
+                href="https://wa.me/+6285155020773"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   class="object-scale-down w-14"
                   src="/assets/icon/whatsapp.png"
