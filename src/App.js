@@ -11,7 +11,7 @@ function App() {
         >
           <img
             class="object-cover"
-            src="/assets/image/photo.png"
+            src="/github-io/assets/image/photo.png"
             width="320"
             alt="whatsapp"
           />
@@ -33,7 +33,7 @@ function App() {
               >
                 <img
                   class="object-scale-down w-14"
-                  src="/assets/icon/email.png"
+                  src="/github-io/assets/icon/email.png"
                   alt="email"
                 />
               </a>
@@ -44,7 +44,7 @@ function App() {
               >
                 <img
                   class="object-scale-down w-14"
-                  src="/assets/icon/whatsapp.png"
+                  src="/github-io/assets/icon/whatsapp.png"
                   alt="whatsapp"
                 />
               </a>
@@ -55,7 +55,7 @@ function App() {
               >
                 <img
                   class="object-scale-down w-14"
-                  src="/assets/icon/instagram.png"
+                  src="/github-io/assets/icon/instagram.png"
                   alt="instagram"
                 />
               </a>
@@ -66,7 +66,7 @@ function App() {
               >
                 <img
                   class="object-scale-down w-14"
-                  src="/assets/icon/youtube.png"
+                  src="/github-io/assets/icon/youtube.png"
                   alt="youtube"
                 />
               </a>
