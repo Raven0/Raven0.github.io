@@ -1,6 +1,7 @@
 {
   "name": "ismailrohaga.github.io",
   "version": "0.1.0",
+  "homepage": "http://ismailrohaga.github.io/ismailrohaga.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -41,6 +42,5 @@
   },
   "devDependencies": {
     "prettier-plugin-tailwindcss": "^0.2.1"
-  },
-  "homepage": "http://ismailrohaga.github.io/ismailrohaga.github.io"
+  }
 }
