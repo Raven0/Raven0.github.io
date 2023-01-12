@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ismailrohaga.github.io/static/css/main.72360e32.css",
+    "main.js": "/ismailrohaga.github.io/static/js/main.a961c52a.js",
+    "static/js/787.ec120fc1.chunk.js": "/ismailrohaga.github.io/static/js/787.ec120fc1.chunk.js",
+    "index.html": "/ismailrohaga.github.io/index.html",
+    "main.72360e32.css.map": "/ismailrohaga.github.io/static/css/main.72360e32.css.map",
+    "main.a961c52a.js.map": "/ismailrohaga.github.io/static/js/main.a961c52a.js.map",
+    "787.ec120fc1.chunk.js.map": "/ismailrohaga.github.io/static/js/787.ec120fc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72360e32.css",
+    "static/js/main.a961c52a.js"
+  ]
+}
