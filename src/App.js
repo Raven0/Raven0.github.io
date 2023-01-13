@@ -11,7 +11,7 @@ function App() {
         >
           <img
             class="object-cover"
-            src="/github-io/assets/image/photo.png"
+            src="/assets/image/photo.png"
             width="320"
             alt="whatsapp"
           />
@@ -23,6 +23,11 @@ function App() {
             <p class="text-2xl text-slate-600">
               Software Engineer & Graduate Student. Indonesia
             </p>
+            <p class="text-slate-600 mt-4">
+              I have many names, pick whatever you're most familiar with. You
+              can call me Ismail, Ishmael (just like in moby-dick), Is, Mail,
+              Liam (reverse from Mail), Fafa or Dhafa.
+            </p>
 
             {/* TODO: inject value using list, get from API */}
             <div class="flex flex-row space-x-4 mt-4">
@@ -33,7 +38,7 @@ function App() {
               >
                 <img
                   class="object-scale-down w-14"
-                  src="/github-io/assets/icon/email.png"
+                  src="/assets/icon/email.png"
                   alt="email"
                 />
               </a>
@@ -44,7 +49,7 @@ function App() {
               >
                 <img
                   class="object-scale-down w-14"
-                  src="/github-io/assets/icon/whatsapp.png"
+                  src="/assets/icon/whatsapp.png"
                   alt="whatsapp"
                 />
               </a>
@@ -55,7 +60,7 @@ function App() {
               >
                 <img
                   class="object-scale-down w-14"
-                  src="/github-io/assets/icon/instagram.png"
+                  src="/assets/icon/instagram.png"
                   alt="instagram"
                 />
               </a>
@@ -66,7 +71,7 @@ function App() {
               >
                 <img
                   class="object-scale-down w-14"
-                  src="/github-io/assets/icon/youtube.png"
+                  src="/assets/icon/youtube.png"
                   alt="youtube"
                 />
               </a>
