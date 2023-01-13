@@ -15,7 +15,7 @@ function App() {
             width="320"
             alt="whatsapp"
           />
-          <div class="flex flex-col justify-center p-8">
+          <div class="flex flex-col justify-center p-4">
             <p class="text-sm font-extrabold">About Me.</p>
             <h1 class="text-5xl font-extrabold">Hey There! I'm Ismail 👋</h1>
 
@@ -24,9 +24,8 @@ function App() {
               Software Engineer & Graduate Student. Indonesia
             </p>
             <p class="text-slate-600 mt-4">
-              I have many names, pick whatever you're most familiar with. You
-              can call me Ismail, Ishmael (just like in moby-dick), Is, Mail,
-              Liam (reverse from Mail), Fafa or Dhafa.
+              I have many names. Call me Ismail, Ishmael (just like in
+              moby-dick), Is, Mail, Liam (reverse from Mail), Fafa or Dhafa.
             </p>
 
             {/* TODO: inject value using list, get from API */}
