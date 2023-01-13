@@ -81,6 +81,8 @@ function App() {
 
         <div id="content-spotify">
           {/* TODO: get spotify playlist link via API services */}
+
+          {/* https://open.spotify.com/embed/playlist/33bGIXVLaiAWuQxsaNyI2k?utm_source=generator */}
           <iframe
             title="spotify-playlist-embed"
             class="aspect-video xl:aspect-square w-full xl:w-96 mb-8"
