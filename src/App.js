@@ -2,20 +2,20 @@ function App() {
   return (
     // Root
     // TODO: create reusable component, sort tailwind class
-    <div class="flex xl:h-screen flex-col p-12 justify-center">
+    <div class="flex xl:h-screen flex-col p-12">
       {/* About & Spotify */}
       <div class="flex flex-col xl:flex-row justify-center">
         <div
           id="content-about-me"
-          class="bg-gray-100 rounded-xl flex flex-col-reverse w-auto md:flex-row xl:pr-14 overflow-hidden xl:mr-8 mb-8"
+          class="bg-gray-100 rounded-xl flex flex-col-reverse w-full md:flex-row overflow-hidden xl:mr-8 mb-8"
         >
           <img
             class="object-cover"
             src="/assets/image/photo.png"
             width="320"
-            alt="whatsapp"
+            alt="profile"
           />
-          <div class="flex flex-col justify-center p-4">
+          <div class="flex flex-col justify-center p-8">
             <p class="text-sm font-extrabold">About Me.</p>
             <h1 class="text-5xl font-extrabold">Hey There! I'm Ismail 👋</h1>
 
@@ -93,15 +93,75 @@ function App() {
       </div>
       {/* End of About & Spotify */}
 
-      {/* TODO: Before working on these two section, remove justify-center props on root div*/}
       {/* Education */}
-      <div class="flex flex-row">
-        <div></div>
+      <div class="flex h-1/3">
+        <div
+          id="content-education"
+          class="bg-gray-100 rounded-xl flex flex-col-reverse w-full md:flex-row overflow-hidden mb-8"
+        >
+          <img
+            class="object-cover md:w-1/3 md:h-full h-32"
+            src="/assets/image/bg-education.png"
+            alt="https://unsplash.com/photos/_OZCl4XcpRw"
+          />
+          <div class="flex flex-col justify-center p-8">
+            <p class="text-sm font-extrabold">Education.</p>
+            <h1 class="text-2xl font-extrabold">
+              Currently @BINUS Graduate MMSI Program (2022 - 2024)
+            </h1>
+
+            <p class="text-2xl text-slate-600 mt-4">
+              BINUS University, Bachelor’s Degree, Informatics (2019 - 2022)
+            </p>
+            <p class="text-2xl text-slate-600">
+              Vocational High School 13, Software Engineering (2015 - 2018)
+            </p>
+          </div>
+        </div>
       </div>
       {/* End of Education */}
 
       {/* Connect & Experience */}
-      <div class="flex flex-row"></div>
+      <div class="flex flex-col xl:flex-row justify-center h-1/3">
+        <div
+          id="content-linkedin"
+          class="bg-gray-900 rounded-xl flex xl:aspect-square xl:mr-8 mb-8"
+        >
+          <div class="flex flex-col justify-center p-8 text-white">
+            <p class="text-sm font-extrabold">Connect.</p>
+            <h1 class="text-5xl font-extrabold">
+              Let's get
+              <a
+                href="https://www.linkedin.com/in/ismailrohaga/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p class="underline">Linked-in</p>
+              </a>
+            </h1>
+          </div>
+        </div>
+
+        <div
+          id="content-education"
+          class="bg-gray-100 rounded-xl flex flex-col w-full md:flex-row overflow-hidden mb-8"
+        >
+          <div class="flex flex-col justify-center p-8">
+            <p class="text-sm font-extrabold">Experience.</p>
+            <h1 class="text-5xl font-extrabold text-ellipsis overflow-hidden">
+              4+ Years of Software Development
+            </h1>
+            <p class="text-2xl text-slate-600 mt-4">
+              From web to mobile development, From PHP to Kotlin & JS.
+            </p>
+          </div>
+          <img
+            class="object-cover md:w-1/3 md:h-auto h-32"
+            src="/assets/image/bg-experience.jpg"
+            alt="https://unsplash.com/photos/842ofHC6MaI"
+          />
+        </div>
+      </div>
       {/* End of Connect & Experience */}
     </div>
   );
